@@ -1,0 +1,257 @@
+body {
+    background-image: linear-gradient(to left, red, black, blue);
+    padding: 0px;
+    margin: 0px;
+
+
+
+    header {
+
+        font-family: 'Bebas ';
+        text-transform: uppercase;
+        font-size: 30px;
+
+        nav {
+            margin-top: 0px;
+            background-color: black;
+        }
+
+
+        h1 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            background: black;
+
+        }
+
+    }
+
+    aside {
+
+        h2 {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Bebas';
+            color: white;
+            background-color: black;
+        }
+
+        p {
+            margin-top: 0px;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Bebas Neue';
+            color: white;
+            background-color: black;
+        }
+
+        div {
+            margin: 5px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-basis: 4 0 200px;
+
+
+            font-family: 'Bebas Neue';
+            font-size: 20px;
+
+
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                border: solid 5px black;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+    article {
+
+        h3 {
+            text-align: center;
+            border: solid 3px black;
+            color: blue;
+            font-size: 40px;
+            font-family: 'Bebas Neue';
+
+        }
+
+        img {
+
+
+            height: 250px;
+            border-radius: 50%;
+            border: solid blue 1px;
+        }
+
+        p {
+            background-color: black;
+            border: solid 3px blue;
+            color: white;
+            font-size: 30px;
+            font-family: 'Bebas Neue';
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+}
+
+
+
+/*FOOTER*/
+
+
+
+/*FORMULARIO con estilos en linea*/
+form {
+    table {
+        td {
+            margin: 20px;
+            color: black;
+            border: solid red 2px;
+            font-family: 'Bebas Neue';
+            background-color: white;
+
+            padding: 40px;
+
+        }
+    }
+
+    fieldshet {
+        background-color: blue;
+
+        label {
+            color: black;
+            background-color: white;
+            font-size: 20px;
+            margin: 10px;
+            padding: 2px;
+        }
+    }
+}
+
+
+footer {
+    background: #03080c;
+    font-family: 'Bebas Neue';
+    color: white;
+    margin-top: 100px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    font-size: 20px;
+    background-image: linear-gradient(to left, red, black, blue);
+    color: white;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: blue;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: blue;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: blue;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
